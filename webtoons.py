@@ -40,6 +40,11 @@ class Webtoons:
         soup=bs(page.content,'lxml')
         ls=soup.find(class_="ranking_lst top")
         subjall=ls.find_all(class_="subj")
+
+        new=soup.find(class_="lst_type1")
+        for e in new.find_all('a',href=True):
+            requests.get(e['href'])
+
         count = 1
         for i in subjall:
             print str(count)+' ' +i.get_text()
