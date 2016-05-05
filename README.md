@@ -12,15 +12,9 @@
 
 5) Search based on the age criteria.<br>
 
-6) Ongoing/completed--<br>
+6) Popularity/ popularity based on genre/popularity based on age <br>
 
-7) Popularity/ popularity based on genre/popularity based on age <br>
-
-8) List all work of a writer <br>
-
-9) download the comic.<br>
+7) download the comic.<br>
 
 
-
-<center>so the idea is that one can browse the comic using any of the 8 options and download them with the function 9.</center><br><br>
-<b>Any other ideas are welcomed.</b>
+<b> There seems to be no way to fetch images from webtoons, so the download_comic function is not working.. though it can generate all the links for the comics if that is needed(will save you some time of parsing)</b>
